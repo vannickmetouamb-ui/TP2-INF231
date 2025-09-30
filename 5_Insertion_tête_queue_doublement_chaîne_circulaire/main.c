@@ -7,7 +7,7 @@ int main() {
     // Creation de la liste initiale de 4 elements (10, 20, 30, 40)
     tete_liste = creer_liste_initiale();
 
-    printf("--- GESTION DE LISTE DOUBLEMENT CHAINEE CIRCULAIRE ---\n");
+    printf("--- GESTION DE LISTE DOUBLEMENT CHAINEE CIRCULAIRE  ---\n");
     printf("Liste initiale generee (10, 20, 30, 40) :\n");
     afficher_liste(tete_liste);
     printf("------------------------------------------------------\n");
@@ -20,7 +20,7 @@ int main() {
         printf("0. Quitter le programme\n");
         printf("Votre choix : ");
         if (scanf("%d", &choix) != 1) {
-            // Pour gerer les entrees non numeriques
+        
             while(getchar() != '\n'); 
             choix = -1;
         }
